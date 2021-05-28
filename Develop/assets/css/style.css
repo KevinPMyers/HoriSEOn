@@ -7,7 +7,7 @@
 body {
     background-color: #d9dcd6;
 }
-
+/* fixed errors in font family, certain fonts didnt have quotes on them */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -28,7 +28,7 @@ header nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     font-size: 20px;
 }
 
@@ -45,9 +45,9 @@ a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/* Changed font size to fill the benefits class section better */
 p {
-    font-size: 16px;
+    font-size: 20px;
 }
 
 .hero {
@@ -81,15 +81,23 @@ p {
     clear: both;
     float: right;
     width: 20%;
-    height: 100%;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    height: 1050px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #2589bd;
 }
+/* Changed the height from 100% to 1050px to more closely resemble the mock up */
 
 .benefit-lead {
     margin-bottom: 32px;
     color: #ffffff;
 }
+
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 25px;
+}
+/* Enlarged h3 font sizes to better reflect the mock up */
 
 .benefit-brand {
     margin-bottom: 32px;
@@ -101,36 +109,34 @@ p {
     color: #ffffff;
 }
 
-.benefit-lead h3 {
-    margin-bottom: 10px;
-    text-align: center;
-}
 
 .benefit-brand h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 25px;
 }
 
 .benefit-cost h3 {
     margin-bottom: 10px;
     text-align: center;
+    font-size: 25px;
 }
 
 .benefit-lead img {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 150px;
 }
 
 .benefit-brand img {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 150px;
 }
 
 .benefit-cost img {
     display: block;
-    margin: 10px auto;
+    margin: 20px auto;
     max-width: 150px;
 }
 
@@ -138,27 +144,40 @@ p {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.search-engine-optimization p {
+    font-size: 20px;
 }
 
 .online-reputation-management {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.online-reputation-management p {
+    font-size: 20px;
 }
 
 .social-media-marketing {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', 'sans-serif';
     background-color: #0072bb;
     color: #ffffff;
+}
+
+.social-media-marketing p {
+    font-size: 20px;
+    padding: 0 40px;
 }
 
 .search-engine-optimization img {
@@ -186,12 +205,13 @@ p {
 .social-media-marketing h2 {
     margin-bottom: 20px;
     font-size: 36px;
+    text-align: center;
 }
 
 .footer {
     padding: 30px;
     clear: both;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', 'Arial', 'sans-serif';
     text-align: center;
 }
 
